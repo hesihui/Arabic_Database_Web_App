@@ -43,9 +43,19 @@ const Article = (props) => {
                         title={<a href={`${item.id}`}>{item.title}</a>}
                         description={item.description}
                     />
+                    <p>---</p>
+                    {item.authors}
+                    <p>---</p>
                     {item.content}
-                    {item.content}
-                    {item.year_in_school}
+                    <p>---</p>
+                    {item.year}
+                    <p>---</p>
+                    {item.form}
+                    <p>---</p>
+                    {item.language}
+                    <p>---</p>
+                    {item.tags}
+
                 </List.Item>
             )}
         />
