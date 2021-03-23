@@ -4,8 +4,8 @@ A web application served as a database for Arabic Literature
 
 Entity - 文章
 
-- id - int
-- title - string (max 200)
+- id - int - Django 会自动生成
+- title - string (max 120)
 - content - string
 - author - list
 - Period - string
@@ -27,3 +27,11 @@ Entity - 文章
 【TODO】改Django的 schema
 
 【TODO】Complete Database 页面的 UI
+
+
+---------
+
+Useful references: 
+
+1. [Django (Python) : DatabaseError : x Table has No Column named y](https://stackoverflow.com/questions/11175856/django-python-databaseerror-x-table-has-no-column-named-y/43249130)
+2. [What is the most efficient way to store a list in the Django models?](https://stackoverflow.com/questions/1110153/what-is-the-most-efficient-way-to-store-a-list-in-the-django-models)

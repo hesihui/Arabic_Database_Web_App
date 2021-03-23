@@ -44,6 +44,8 @@ const Article = (props) => {
                         description={item.description}
                     />
                     {item.content}
+                    {item.content}
+                    {item.year_in_school}
                 </List.Item>
             )}
         />
